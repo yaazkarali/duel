@@ -18,7 +18,7 @@ public class DuelTicket {
 
     public DuelTicket(Inferno plugin) {
         this.plugin = plugin;
-        this.key = new NamespacedKey(plugin.getDescription().getName().toLowerCase(), PDC_KEY);
+        this.key = new NamespacedKey(plugin, PDC_KEY);
     }
 
     public NamespacedKey getKey() {
