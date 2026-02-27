@@ -1,0 +1,17 @@
+# Build output
+build/
+.gradle/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Local test server
+run/
+
+# OS files
+.DS_Store
+Thumbs.db

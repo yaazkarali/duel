@@ -1,0 +1,106 @@
+##################################################
+#           Inferno Duel System - Kits           #
+##################################################
+
+kits:
+  sword:
+    display-name: "&cSword Kit"
+    description: "Classic sword PvP"
+    icon: IRON_SWORD
+    armor:
+      helmet: IRON_HELMET
+      chestplate: IRON_CHESTPLATE
+      leggings: IRON_LEGGINGS
+      boots: IRON_BOOTS
+    weapon: IRON_SWORD
+    items:
+      - material: GOLDEN_APPLE
+        amount: 8
+      - material: COOKED_BEEF
+        amount: 16
+
+  axe:
+    display-name: "&6Axe Kit"
+    description: "High damage axe combat"
+    icon: IRON_AXE
+    armor:
+      helmet: IRON_HELMET
+      chestplate: IRON_CHESTPLATE
+      leggings: IRON_LEGGINGS
+      boots: IRON_BOOTS
+    weapon: IRON_AXE
+    items:
+      - material: GOLDEN_APPLE
+        amount: 6
+      - material: COOKED_BEEF
+        amount: 16
+
+  archer:
+    display-name: "&aArcher Kit"
+    description: "Ranged bow combat"
+    icon: BOW
+    armor:
+      helmet: LEATHER_HELMET
+      chestplate: LEATHER_CHESTPLATE
+      leggings: LEATHER_LEGGINGS
+      boots: LEATHER_BOOTS
+    weapon: BOW
+    items:
+      - material: ARROW
+        amount: 64
+      - material: GOLDEN_APPLE
+        amount: 4
+      - material: IRON_SWORD
+        amount: 1
+
+  diamond:
+    display-name: "&bDiamond Kit"
+    description: "Full diamond gear"
+    icon: DIAMOND_SWORD
+    armor:
+      helmet: DIAMOND_HELMET
+      chestplate: DIAMOND_CHESTPLATE
+      leggings: DIAMOND_LEGGINGS
+      boots: DIAMOND_BOOTS
+    weapon: DIAMOND_SWORD
+    items:
+      - material: GOLDEN_APPLE
+        amount: 4
+      - material: COOKED_BEEF
+        amount: 16
+
+  uhc:
+    display-name: "&eUHC Kit"
+    description: "Ultra Hardcore style"
+    icon: GOLDEN_APPLE
+    armor:
+      helmet: IRON_HELMET
+      chestplate: IRON_CHESTPLATE
+      leggings: IRON_LEGGINGS
+      boots: IRON_BOOTS
+    weapon: IRON_SWORD
+    items:
+      - material: GOLDEN_APPLE
+        amount: 2
+      - material: COOKED_BEEF
+        amount: 8
+      - material: BOW
+        amount: 1
+      - material: ARROW
+        amount: 32
+
+  op:
+    display-name: "&5OP Kit"
+    description: "Overpowered gear"
+    icon: NETHERITE_SWORD
+    armor:
+      helmet: NETHERITE_HELMET
+      chestplate: NETHERITE_CHESTPLATE
+      leggings: NETHERITE_LEGGINGS
+      boots: NETHERITE_BOOTS
+    weapon: NETHERITE_SWORD
+    items:
+      - material: GOLDEN_APPLE
+        amount: 16
+      - material: ENCHANTED_GOLDEN_APPLE
+        amount: 2

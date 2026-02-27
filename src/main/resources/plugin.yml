@@ -1,0 +1,41 @@
+name: Inferno
+version: 1.0.0
+main: com.inferno.Inferno
+api-version: 1.21
+description: A fully featured 1v1 PvP Dueling System
+authors: [Inferno]
+website: https://github.com/yaazkarali/duel
+softdepend: [Citizens, Vault, PlaceholderAPI]
+
+commands:
+  duel:
+    description: Send a duel request to another player
+    usage: /duel <player>
+    permission: inferno.duel
+  duelaccept:
+    description: Accept a duel request
+    usage: /duelaccept <player>
+    permission: inferno.duel
+  dueldeny:
+    description: Deny a duel request
+    usage: /dueldeny <player>
+    permission: inferno.duel
+  duelstats:
+    description: View duel statistics
+    usage: /duelstats [player]
+    permission: inferno.stats
+  dueladmin:
+    description: Admin management command
+    usage: /dueladmin <subcommand>
+    permission: inferno.admin
+
+permissions:
+  inferno.duel:
+    description: Allows using duel commands
+    default: true
+  inferno.stats:
+    description: Allows viewing duel stats
+    default: true
+  inferno.admin:
+    description: Allows using admin commands
+    default: op

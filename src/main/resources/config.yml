@@ -1,0 +1,65 @@
+##################################################
+#          Inferno Duel System - Config          #
+##################################################
+
+# Database Settings
+database:
+  type: sqlite  # sqlite or mysql
+  mysql:
+    host: localhost
+    port: 3306
+    database: inferno
+    username: root
+    password: password
+    pool-size: 10
+
+# Lobby Settings
+lobby:
+  world: world
+  spawn:
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  region:
+    min:
+      x: -50
+      y: 60
+      z: -50
+    max:
+      x: 50
+      y: 80
+      z: 50
+
+# Duel Request Settings
+duel-request:
+  expiry-seconds: 30
+  cooldown-seconds: 5
+
+# Countdown Settings
+countdown:
+  seconds: 5
+
+# Ticket Settings
+ticket:
+  material: PAPER
+  name: "&#FFD700&lDuel Ticket"
+  lore:
+    - "&7Used to wager in Inferno Duels."
+    - "&7Purchase from the Duel Vendor."
+    - ""
+    - "&8Worth: &e1 Coin"
+
+# Kit Defaults
+kit:
+  keep-inventory: false
+
+# Sounds
+sounds:
+  countdown-tick: BLOCK_NOTE_BLOCK_PLING
+  countdown-start: ENTITY_PLAYER_LEVELUP
+  duel-start: ENTITY_ENDER_DRAGON_GROWL
+  duel-end: ENTITY_FIREWORK_ROCKET_LAUNCH
+  request-sent: ENTITY_EXPERIENCE_ORB_PICKUP
+  request-received: ENTITY_PLAYER_LEVELUP

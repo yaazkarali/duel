@@ -1,0 +1,81 @@
+##################################################
+#         Inferno Duel System - Messages         #
+##################################################
+
+prefix: "&8[&c&lInferno&8] &r"
+
+# General
+no-permission: "&cYou do not have permission to do that."
+player-only: "&cThis command can only be used by players."
+player-not-found: "&cPlayer not found: &e{player}"
+
+# Duel Request
+duel-request-sent: "&aYou sent a duel request to &e{player}&a."
+duel-request-received: "&e{player} &ahas challenged you to a duel!"
+duel-request-expired-sender: "&cYour duel request to &e{player} &chas expired."
+duel-request-expired-receiver: "&cThe duel request from &e{player} &chas expired."
+duel-request-already-sent: "&cYou already have a pending duel request with &e{player}&c."
+duel-request-none: "&cYou have no pending duel request from &e{player}&c."
+duel-request-self: "&cYou cannot duel yourself."
+duel-request-in-duel: "&c&e{player} &cis currently in a duel."
+duel-request-you-in-duel: "&cYou are currently in a duel."
+duel-request-cooldown: "&cPlease wait before sending another duel request."
+
+# Duel Accept/Deny
+duel-accepted: "&aYou accepted the duel request from &e{player}&a."
+duel-denied: "&cYou denied the duel request from &e{player}&c."
+duel-denied-sender: "&e{player} &cdenied your duel request."
+
+# Duel Session
+duel-countdown: "&e{seconds}..."
+duel-fight: "&c&lFIGHT!"
+duel-winner: "&a&lYou won the duel against &e{player}&a!"
+duel-loser: "&c&lYou lost the duel against &e{player}&c."
+duel-tickets-won: "&aYou received &e{amount} Duel Tickets &afrom the wager!"
+duel-command-blocked: "&cCommands are blocked during a duel!"
+duel-disconnect-lose: "&e{player} &cdisconnected and lost the duel by default."
+duel-cancelled: "&cThe duel has been cancelled."
+
+# Kit
+kit-not-agreed: "&cBoth players must select the same kit before confirming."
+kit-selected: "&aKit selected: &e{kit}"
+kit-other-selected: "&e{player} &aselected kit: &e{kit}"
+
+# Bet
+bet-invalid: "&cInvalid bet amount."
+bet-not-enough-tickets: "&cYou do not have enough Duel Tickets. You have &e{count}&c."
+bet-mismatch: "&cBet amounts must match."
+bet-updated: "&aBet updated to &e{amount} &aDuel Tickets."
+
+# Confirm
+confirm-waiting: "&aWaiting for &e{player} &ato confirm..."
+confirm-both: "&aBoth players confirmed! Starting duel..."
+
+# Stats
+stats-header: "&8------- &e{player}'s Stats &8-------"
+stats-wins: "&7Wins: &a{wins}"
+stats-losses: "&7Losses: &c{losses}"
+stats-win-streak: "&7Win Streak: &e{streak}"
+stats-best-streak: "&7Best Streak: &6{best}"
+stats-total-bet-won: "&7Total Tickets Won: &a{won}"
+stats-total-bet-lost: "&7Total Tickets Lost: &c{lost}"
+stats-footer: "&8-------------------------------"
+
+# Tickets
+tickets-not-enough: "&cYou do not have enough Duel Tickets."
+tickets-purchase-success: "&aYou purchased &e{amount} Duel Tickets &afor &e{cost} coins."
+tickets-purchase-fail-balance: "&cYou do not have enough coins."
+tickets-sell-success: "&aYou sold &e{amount} Duel Tickets &afor &e{amount} coins."
+tickets-sell-none: "&cYou have no Duel Tickets to sell."
+
+# Inventory
+inventory-not-empty: "&cYou must have an empty inventory (except Duel Tickets) to enter the lobby."
+
+# Admin
+admin-arena-created: "&aArena &e{arena} &acreated successfully."
+admin-arena-deleted: "&aArena &e{arena} &adeleted."
+admin-arena-spawn-set: "&aSpawn &e{num} &aset for arena &e{arena}&a."
+admin-arena-list-header: "&8------- &eArenas &8-------"
+admin-arena-list-entry: "&7- &e{arena} &8[&a{status}&8]"
+admin-arena-not-found: "&cArena not found: &e{arena}"
+admin-usage: "&cUsage: /dueladmin arena <create|setspawn1|setspawn2|delete|list> [name]"
